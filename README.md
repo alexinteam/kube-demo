@@ -3,6 +3,7 @@
 kubectl apply -f namespace.yaml
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
+kubectl apply -f ingress.yaml
 ```
 
 либо `kubectl apply -f .` но надо выполнить 2 раза тк NS созджается с задержкой
